@@ -1,0 +1,235 @@
+@import url('https://fonts.googleapis.com/css2?family=Inder&family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&family=Jost:ital,wght@0,100..900;1,100..900&family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap');
+
+.Nav_bar{
+    display: flex;
+    gap: 42px;
+    list-style: none;
+ 
+  justify-content: flex-end ;
+}
+
+.container{
+      max-width: 1200px;
+  width: 90%;             
+  margin: 50px auto;      
+  padding: 30px;          
+ 
+}
+.nav{
+font-family: Jost;
+font-weight: 400;
+font-size: 14px;
+line-height: 14px;
+letter-spacing: 2px;
+color: #333136;
+cursor: pointer;
+
+}
+
+.main_nav{
+      display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.main_card{
+   width: 1200px;
+  height: 252px;
+  top: 155px;
+  left: 165px;
+  border-radius: 15px;
+  background: #E7816B;
+  margin-top: 64px;
+}
+
+.card_p{
+ width: 730;
+height: 48;
+top: 219px;
+left: 355px;
+font-family: Jost;
+font-weight: 500;
+font-size: 48px;
+line-height: 48px;
+letter-spacing: 0px;
+text-align: center;
+color: #fff;
+ transform: translateY(64px);  
+
+}
+.card_pp{
+    width: 730;
+height: 52;
+top: 291px;
+left: 355px;
+font-family: Jost;
+font-weight: 400;
+font-size: 16px;
+line-height: 26px;
+letter-spacing: 0px;
+text-align: center;
+color: #fff;
+transform: translateY(48px);  
+}
+.tract_carta{
+    width:350px;
+height: 478px;
+top: 567px;
+left: 165px;
+border-radius: 15px;
+background: #FDF3F0;
+margin-top: 160px;
+}
+.carta_p{
+    font-family: Jost;
+font-weight: 500;
+font-size: 20px;
+line-height: 26px;
+letter-spacing: 5px;
+text-align: center;
+color: #E7816B;
+}
+
+.carta_pp{
+    font-family: Jost;
+font-weight: 400;
+font-size: 16px;
+line-height: 26px;
+letter-spacing: 0px;
+text-align: center;
+
+
+}
+
+.main_Cartlar{
+    display: flex;
+    gap: 67px;
+
+}
+
+.left_carta{
+    display: flex;
+    gap: 67px;
+    position: relative;
+  top: -130px;
+}
+
+.card {
+  position: relative;
+  width: 500px;
+  height: 300px;
+  overflow: hidden;
+  border-radius: 15px;
+}
+
+.card-img {
+width: 541;
+height: 308;
+top: 1715px;
+left: 165px;
+  object-fit: cover;
+  display: block;
+  filter: brightness(40%);
+}
+
+.card-content {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  text-align: center;
+  color: white;
+  z-index: 2;
+}
+
+.card-content h2 {
+  font-size: 28px;
+  font-weight: bold;
+  letter-spacing: 2px;
+  margin-bottom: 20px;
+}
+
+.btn {
+  background-color: transparent;
+  border: 1px solid white;
+  padding: 5px 15px;
+  color: white;
+  font-size: 12px;
+  letter-spacing: 3px;
+  cursor: pointer;
+  transition: all 0.3s ease;
+  border: none;
+ 
+}
+
+.btn:hover {
+  background-color: white;
+  color: black;
+}
+
+.arrow {
+  margin-left: 8px;
+  color: red;
+}
+
+.Xart_today{
+    display: flex;
+    gap: 180px;
+}
+
+.Baner{
+    width: 1200px;
+  height: 300px;
+  top: 155px;
+  left: 165px;
+  border-radius: 15px;
+  background: #E7816B;
+ margin-top: 160px;
+
+  
+ 
+
+}
+
+.Cort_p{
+    width: 268;
+height: 98;
+font-family: Jost;
+font-weight: 500;
+font-size: 40px;
+line-height: 40px;
+letter-spacing: 0px;
+color: #FFFFFF;
+}
+
+.Cort_pp{
+    width: 459;
+height: 52;
+top: 96px;
+font-family: Jost;
+font-weight: 400;
+font-size: 16px;
+line-height: 26px;
+letter-spacing: 0px;
+color: #FFFFFF;
+}
+
+.but{
+    width: 140px;
+height: 50px;
+border-radius: 8px;
+border: none;
+font-family: Jost;
+font-weight: 500;
+font-size: 15px;
+cursor: pointer;
+margin-left: 900px;
+position: relative;
+  top: -130px;
+}
+  
+
+.Cort_pmoin{
+    padding: 20px;
+    margin-left: 30px;
+}
