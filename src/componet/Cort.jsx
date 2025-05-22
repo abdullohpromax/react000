@@ -1,5 +1,5 @@
 
-function Cortt(params) {
+function Cortt() {
     return <div className="Baner">
         <div className="Cort_pmoin">
         <p className="Cort_p">Let’s talk about <br /> your project</p>
